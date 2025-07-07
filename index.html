@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夏之光应援网站</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        
+        /* 头部样式 */
+        header {
+            background-color: #25b803;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        
+        /* 主要内容区域样式 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* 应援信息区域样式 */
+        .support-info {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .support-info h2 {
+            color: #4b0082;
+            border-bottom: 2px solid #4b0082;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        
+        /* 应援图片区域样式 */
+        .support-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+        }
+        
+        .support-images img {
+            width: 30%;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .support-images img:hover {
+            transform: scale(1.05);
+        }
+        
+        /* 应援视频区域样式 */
+        .support-video {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .support-video iframe {
+            width: 80%;
+            height: 400px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* 应援口号区域样式 */
+        .support-slogan {
+            background-color: #200404;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .support-slogan h2 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            font-family: 'Creepster', cursive; /* 恐怖字体 */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* 添加文字阴影 */
+        }
+        
+        /* CP黄俊捷介绍区域样式 */
+        .cp-info {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .cp-info h2 {
+            color: #4b0082;
+            border-bottom: 2px solid #4b0082;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        
+        .cp-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+        }
+        
+        .cp-images img {
+            width: 30%;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .cp-images img:hover {
+            transform: scale(1.05);
+        }
+        
+        /* 页脚样式 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+    </style>
+    <!-- 引入恐怖字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <h1>夏之光</h1>
+    </header>
+    
+    <!-- 主要内容区域 -->
+    <div class="container">
+        <!-- 应援信息区域 -->
+        <section class="support-info">
+            <h2>夏之光简介</h2>
+            <p>夏之光是一位才华横溢的艺人，以其独特的魅力和出色的才华赢得了众多粉丝的喜爱。他在音乐、影视等多个领域都有着卓越的表现，是当代年轻人的榜样。</p>
+            <p>出道以来，夏之光始终保持着对艺术的热爱和执着，不断挑战自我，追求卓越。他的作品深受广大粉丝喜爱，多次获得各类奖项和荣誉。</p>
+        </section>
+        
+        <!-- 应援图片区域 -->
+        <section class="support-images">
+            <img src="xzg1.jpg" alt="夏之光照片1">
+            <img src="xzg2.jpg" alt="夏之光照片2">
+            <img src="xzg3.jpg" alt="夏之光照片3">
+        </section>
+        
+        <!-- 应援视频区域 -->
+        <section class="support-video">
+            <h2>夏之光精彩视频</h2>
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <!-- 应援口号区域 -->
+        <section class="support-slogan">
+            <h2>欢迎来到门的世界！</h2>
+        </section>
+        
+        <!-- CP黄俊捷介绍区域 -->
+        <section class="cp-info">
+            <h2>CP——黄俊捷</h2>
+            <p>CP名：澜久/光速捷婚</p>
+            <p> </p>
+        </section>
+        
+        <!-- CP图片区域 -->
+        <section class="cp-images">
+            <img src="xzg4.jpg" alt="黄俊捷照片1">
+            <img src="https://via.placeholder.com/300x200?text=黄俊捷照片2" alt="黄俊捷照片2">
+            <img src="https://via.placeholder.com/300x200?text=黄俊捷照片3" alt="黄俊捷照片3">
+        </section>
+    </div>
+    
+</body>
+</html>
